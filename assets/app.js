@@ -21,5 +21,13 @@ $(document).ready(function(){
         };
       });
     };
+    function endRace(){
+      if (playerOne === finish){
+        alert("The Flash is the fastes man alive!")
+      } else if (playerTwo === finish){
+        alert("Reverse Flash controls the Speedforce!")
+      }
+    }
     beginRace();
+    endRace();
   });

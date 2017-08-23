@@ -1,16 +1,38 @@
 .flash-run {
   position:relative;
-  width: 12%;
+  width: 15vw;
 }
 .reverse-flash-run {
   position:relative;
+  width: 20vw;
 }
 img{
   width:15%;
 }
 h1 {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  margin: auto;
 }
 body {
-  background-image: url("desert.jpg");
+  background: url("./images/Rub_al_Khali_002.jpg") no-repeat center center;
+  background-attachment: scroll;
+}
+.flash_1 {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+}
+.flash_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

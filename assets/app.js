@@ -10,7 +10,7 @@ $(document).ready(function(){
         playerOne ++;
           $(".flash-run").animate({left:"+=9.9%"}, 0100)
           if (playerOne > finish){
-            alert("The Flash is the fastest man alive!")
+            $("h1").text("Barry Allen is the fastest man alive!")
           }
           console.log(playerOne);
           console.log(finish);
@@ -19,7 +19,7 @@ $(document).ready(function(){
           playerTwo ++;
             $(".reverse-flash-run").animate({left:"+=8%"},0100)
             if (playerTwo > finish){
-              alert("The Reverse Flash is the fastest man alive!")
+              $("h1").text("Jay Garrick is the fastest man alive!")
             }
             console.log(playerTwo)
         } else if (playerOne === 10 || playerTwo === 10){

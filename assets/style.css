@@ -1,8 +1,16 @@
 .flash-run {
-  width: 15%;
   position:relative;
+  width: 12%;
 }
 .reverse-flash-run {
-  width: 15%;
   position:relative;
+}
+img{
+  width:15%;
+}
+h1 {
+  text-align: center;
+}
+body {
+  background-image: url("desert.jpg");
 }

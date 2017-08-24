@@ -1,5 +1,5 @@
 # Racing-Game
-My version of a racing game.
+My version of a racing game. Racing two Flash's together, around the world.
 
 # Technologies Used
 jQuery, HTML, CSS

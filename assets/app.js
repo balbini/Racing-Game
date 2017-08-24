@@ -1,5 +1,6 @@
 $(document).ready(function(){
   console.log("linked");
+  // set variables
   let playerOne = 0;
   let playerTwo = 0;
   let finish = 10;
@@ -23,15 +24,16 @@ $(document).ready(function(){
       if (playerOne === 10 || playerTwo === 10){
         $(document).off("keypress");
       };
-      // when player one wins
+      // when player one wins, update header to show winner
       if (playerOne === finish){
         $("h1").text("Barry Allen is the fastest man alive!")
       };
-      // when player two wins
+      // when player two wins, update header to show winner
       if (playerTwo === finish){
         $("h1").text("Jay Garrick is the fastest man alive!")
       };
     });
   };
+  // call function to play game
   beginRace();
 });

@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  console.log("linked");
   // set variables
   let playerOne = 0;
   let playerTwo = 0;
@@ -10,17 +9,12 @@ $(document).ready(function(){
       if (e.charCode === 47){
         playerOne ++;
         $(".flash-run").animate({left:"+=8%"}, 0100)
-        // sanity check
-        console.log(playerOne);
-        console.log(finish);
         // player two action
       } else if (e.charCode === 122) {
         playerTwo ++;
         $(".reverse-flash-run").animate({left:"+=8%"},0100)
-        // sanity check
-        console.log(playerTwo)
       }
-      // Game shutoff
+      // stop game after completion
       if (playerOne === 10 || playerTwo === 10){
         $(document).off("keypress");
       };
